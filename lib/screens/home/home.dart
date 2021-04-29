@@ -5,7 +5,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         color: Colors.white,
-        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 25),
+        padding: EdgeInsets.symmetric(horizontal: 25, vertical: 25),
         child: SingleChildScrollView(
             child: Column(
           children: [
