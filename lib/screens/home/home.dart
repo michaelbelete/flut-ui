@@ -16,7 +16,6 @@ class Home extends StatelessWidget {
                 "Good morning Akila!",
                 style: TextStyle(
                   fontSize: 20,
-                  color: Colors.grey,
                 ),
               ),
               Icon(Icons.shopping_cart)
