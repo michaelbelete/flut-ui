@@ -10,7 +10,9 @@ class Home extends StatelessWidget {
           Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
             Text(
               "Good morning Akila!",
-              size: 18,
+              style: TextStyle(
+                fontSize: 20,
+              ),
             ),
             Icon(Icons.shopping_cart)
           ])
