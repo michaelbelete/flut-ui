@@ -5,7 +5,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         color: Colors.white,
-        padding: EdgeInsets.symmetric(horizontal: 25, vertical: 25),
+        padding: EdgeInsets.symmetric(horizontal: 30, vertical: 25),
         child: SingleChildScrollView(
             child: Column(
           children: [
@@ -22,7 +22,9 @@ class Home extends StatelessWidget {
             //search bar
             Container(
               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-              margin: EdgeInsets.symmetric(vertical: 30, horizontal: 20),
+              margin: EdgeInsets.symmetric(
+                vertical: 30,
+              ),
               decoration: BoxDecoration(color: Colors.grey[100], borderRadius: BorderRadius.circular(20)),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
