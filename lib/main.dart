@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
       ),
       // A widget which will be started on application startup
       home: Scaffold(
-        color: Colors.white,
         body: Home(),
       ),
     );
