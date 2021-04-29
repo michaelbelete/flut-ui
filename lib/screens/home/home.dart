@@ -4,6 +4,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+        color: Colors.white,
         padding: EdgeInsets.symmetric(horizontal: 20, vertical: 25),
         child: SingleChildScrollView(
             child: Column(
@@ -24,7 +25,7 @@ class Home extends StatelessWidget {
               margin: EdgeInsets.symmetric(vertical: 30, horizontal: 20),
               decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(20)),
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Icon(Icons.search),
                   Text('Search food'),
