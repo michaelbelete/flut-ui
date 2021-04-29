@@ -8,7 +8,10 @@ class Home extends StatelessWidget {
         child: SingleChildScrollView(
             child: Column(children: [
           Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
-            Text("Good morning Akila!"),
+            Text(
+              "Good morning Akila!",
+              size: 18,
+            ),
             Icon(Icons.shopping_cart)
           ])
         ])));
