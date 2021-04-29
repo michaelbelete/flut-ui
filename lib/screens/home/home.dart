@@ -27,8 +27,7 @@ class Home extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Icon(Icons.search),
-                  Text('Search pet to adopt'),
-                  Icon(Icons.settings)
+                  Text('Search food'),
                 ],
               ),
             ),
