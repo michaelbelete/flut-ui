@@ -16,7 +16,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // A widget which will be started on application startup
-      home: Home(),
+      home: Scaffold(
+        body: Home(),
+      ),
     );
   }
 }
