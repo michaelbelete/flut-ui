@@ -47,15 +47,9 @@ class Home extends StatelessWidget {
                     child: Column(
                       children: [
                         Container(
-                          padding: EdgeInsets.all(10),
                           margin: EdgeInsets.only(left: 20),
                           decoration: BoxDecoration(color: Colors.white, boxShadow: shadowList, borderRadius: BorderRadius.circular(10)),
-                          child: Image.asset(
-                            foodCategories[index]['coverPicture'],
-                            height: 50,
-                            width: 50,
-                            color: Colors.grey[700],
-                          ),
+                          child: Image.asset(foodCategories[index]['coverPicture'], height: 80, width: 80, color: Colors.grey[700], package: 'mike'),
                         ),
                         Text(foodCategories[index]['foodName'])
                       ],
