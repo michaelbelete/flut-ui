@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
             Container(
               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
               margin: EdgeInsets.symmetric(
-                vertical: 30,
+                vertical: 40,
               ),
               decoration: BoxDecoration(color: Colors.grey[100], borderRadius: BorderRadius.circular(20)),
               child: Row(
